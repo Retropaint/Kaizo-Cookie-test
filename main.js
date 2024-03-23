@@ -1089,6 +1089,7 @@ Game.registerMod("Kaizo Cookies", {
 			addLoc('Unending flow');
 			addLoc('Stagnant body');
 			addLoc('Decay propagation rate +%1% for %2!');
+			console.log(gp);
 			if (typeof gp.spells !== 'undefined') {
 			gp.spells['liquify politician'] = {
 				name: loc('Liquify politician'),
